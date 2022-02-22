@@ -8,7 +8,7 @@ This repository contains a bunch of unfinished or buggy functions in the src fol
 2. Before you can run the tests, you need to have Node and NPM installed. If you already have them installed, you can skip this step. How can you test that you have node and npm installed. In terminal write: node -v (for node) if it display v16.5.0, npm -v (for npm) if it display 17.3.0 means your machine have node and npm.If you don't have then you can install node using the installer from [nodejs.org](https://nodejs.org/en/), or (*mac only*) by first installing [homebrew](https://brew.sh) and running `brew install node`.
 3. Now you have node, you can install the dependencies this project needs to run. Make sure you have `cd`'d into this project, and then run `npm install` to install all dependencies listed in package.json.
 4. Finally, you're ready to run the tests! Run `npm run test` to run the full test suite.
-5. if you have any dependency problem: (step-1: npm outdated) then you will get a list of dependencies that need update. step-2: npm instal <filename>@latest here filename is dependencies that need update.
+5. if you have any dependency problem: (step-1: npm outdated) then you will get a list of dependencies that need update. step-2: npm install filename@latest here filename is dependencies that need update.
 
 ## Finding and fixing a test
 
